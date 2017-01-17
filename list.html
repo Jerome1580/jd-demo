@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>产品列表页</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/list.css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<div id="mask"></div>
+<div id="Bomb">
+    <span id="close_mask">×</span>
+
+</div>
+
+<!--网站次导航-->
+<div class="shortcut">
+    <div class="w">
+        <div class="fl">
+            <dt class="loc">送至：北京
+                <i><s>◇</s></i>
+            </dt>
+
+        </div>
+        <div class="fr">
+            <ul>
+                <li>
+                    <a href="javascript:;" id="login">你好，请登录</a>
+                    <a href="#" class="col-red">免费注册</a>
+                </li>
+                <li class="line"></li>
+                <li>我的订单</li>
+                <li class="line"></li>
+                <li class="fore">我的京东
+                    <i><s>◇</s></i>
+                </li>
+                <li class="line"></li>
+                <li>京东会员</li>
+                <li class="line"></li>
+                <li>企业采购</li>
+                <li class="line"></li>
+                <li class="fore tel-jd">
+                    <i class="tel"></i>
+                    手机京东
+                    <i><s>◇</s></i>
+                </li>
+                <li class="line"></li>
+                <li class="fore">关注京东
+                    <i><s>◇</s></i>
+                </li>
+                <li class="line"></li>
+                <li class="fore">客户服务
+                    <i><s>◇</s></i>
+                </li>
+                <li class="line"></li>
+                <li class="fore">网站导航
+                    <i><s>◇</s></i>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<!--网站次导航结束-->
+
+<!--横屏banner-->
+<div class="topbanner" id="jd-top">
+    <div class="w tp"><img src="images/index/topbanner.jpg" alt="双十一"/>
+        <a href="javascript:;" class="close-banner" id="jd-close"></a>
+    </div>
+</div>
+
+
+<!--搜索框-->
+<div class="w clearfix">
+    <div class="logo">
+        <a href="index.html" id="logo_banner"></a>
+        <div class="db11">
+            <a href="index.html">
+                <img src="images/index/dong.gif" alt>
+            </a>
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" value="" placeholder="图书开抢"/>
+        <button><a href="list.html" style="color: #ffffff">搜索</a></button>
+
+    </div>
+    <div class="car" id="car">我的购物车
+        <span class="icon1"></span>
+        <span class="icon2">&gt;</span>
+        <span class="icon3" id="cart-icon3">0</span>
+        <div class="carDetail" id="carDetail" style="display: none;">
+            <h4 class="car-title">最新加入的商品</h4>
+            <div class="car-products-list" id="car-products-list">
+                <ul></ul>
+
+            </div>
+            <div class="car-sum">
+                共<span class="car-sum-num" id="car-sum-num">0</span>件商品
+                共计￥<span class="car-sum-price" id="car-sum-price">0.00</span>
+                <a href="#" class="gotoCar">去购物车</a>
+            </div>
+        </div>
+    </div>
+    <div class="key-word">
+        <a href="#" class="col-red">11月11天</a>
+        <a href="#" >11.11秒杀 </a>
+        <a href="#" >买2免1</a>
+        <a href="#" >Note5 黑</a>
+        <a href="#" >12期免息</a>
+        <a href="#" >智能科技</a>
+        <a href="#" >清仓</a>
+        <a href="#" >国际服饰</a>
+        <a href="#" >优惠券</a>
+    </div>
+
+</div>
+<!--搜索框部分结束-->
+
+<!--nav开始-->
+<div class="jd-nav">
+    <div class="w">
+        <div class="dropdown">
+            <dl id="category">
+                <dt>
+                    <a href="#">全部商品分类</a> </dt>
+                <dd>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>家用电器</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                    <div class="items">
+                        <h3>手机、数码、京东通信</h3>
+                        <span>></span>
+                    </div>
+                </dd>
+
+            </dl>
+
+        </div>
+        <div class="navitem">
+            <ul>
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">美妆馆</a> </li>
+                <li><a href="#">超市</a> </li>
+                <li><a href="#">全球购</a> </li>
+                <li><a href="#">闪购</a> </li>
+                <li><a href="#" class="new">团购</a>
+                </li>
+                <li><a href="#">拍卖</a> </li>
+                <li><a href="#">金融</a> </li>
+                <li><a href="#">智能</a> </li>
+            </ul>
+
+
+
+        </div>
+        <div class="bike">
+            <a href="#"></a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--nav结束-->
+
+<!--类目属性栏开始-->
+<div class="w solr" >
+    <div class="crumbs">
+        <a href="#">全部结果></a>
+        <span>"电脑"</span>
+    </div>
+
+    <div class="imgbanner">
+        <a href="#"><img src="images/list/imgbanner.jpg" /></a>
+    </div>
+    <div class="sl-main">
+        <div class="clearfix">
+            <div class="sl-bg clearfix">
+                <div class="imp-sl">品牌:</div>
+                <div class="choice1 clearfix">
+
+                        <ul>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+                                <li class="s-logo">
+                                    <a href="#" class="s-logo">
+                                    <img src="images/list/sl-logo.jpg"/>
+                                    </a>
+                                  </li>
+
+                        </ul>
+
+                    <div class="sl-r clearfix">
+                        <div class="more">
+                            <span>更多</span>
+                            <i><s>◇</s></i>
+                        </div>
+                        <div class="multiSelect">
+                            <i><s>+</s></i>
+                            <span>多选</span>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="sl-bg clearfix">
+                <div class="imp-sl">电脑整机:</div>
+                <div class="choice clearfix">
+                    <div class="sl-l2">
+                        <ul>
+                            <li>
+                                <a href="#">台式机</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本</a>
+                            </li>
+                            <li>
+                                <a href="#">一体机</a>
+                            </li>
+                            <li>
+                                <a href="#">游戏本</a>
+                            </li>
+                            <li>
+                                <a href="#">平板电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">服务器/工作站</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本配件</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="sl-r clearfix">
+                        <div class="multiSelect">
+                            <i><s>+</s></i>
+                            <span>多选</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sl-bg clearfix">
+                <div class="noimp-sl">电脑配件:</div>
+                <div class="choice clearfix">
+                    <div class="sl-l2">
+                        <ul>
+                            <li>
+                                <a href="#">显示器</a>
+                            </li>
+                            <li>
+                                <a href="#">CPU</a>
+                            </li>
+                            <li>
+                                <a href="#">组装电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">显卡</a>
+                            </li>
+                            <li>
+                                <a href="#">主板</a>
+                            </li>
+                            <li>
+                                <a href="#">机箱</a>
+                            </li>
+                            <li>
+                                <a href="#">内存</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="sl-r clearfix">
+                        <div class="multiSelect">
+                            <i><s>+</s></i>
+                            <span>多选</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sl-bg clearfix">
+                <div class="noimp-sl">电脑类别:</div>
+                <div class="choice clearfix">
+                    <div class="sl-l2">
+                        <ul>
+                            <li>
+                                <a href="#">家用电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">一体机</a>
+                            </li>
+                            <li>
+                                <a href="#">商用电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">游戏电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">电脑主机</a>
+                            </li>
+                            <li>
+                                <a href="#">迷你机</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+<!--类目属性栏结束-->
+
+<!--产品列表开始-->
+<div class="w list-main clearfix">
+    <div class="ad">
+        <div class="adtitle ">
+            <h3>商品精选</h3>
+            <i>广告</i>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <div class="price">￥1999.00</div>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="comment">已有15人评价</div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="list-r clearfix">
+        <div class="screen">
+                <div class="screen-top">
+                    <ul>
+                        <li class="current"><a href="#" >综合排序</a></li>
+                        <li><a href="#" >销量</a></li>
+                        <li><a href="#" >价格</a></li>
+                        <li><a href="#" >评论数</a></li>
+                        <li><a href="#" >新品</a></li>
+                    </ul>
+                    <div class="flip">
+                        <span>共153.0万件商品</span>
+                        <span>1/100</span>
+                            <div class="box">></div>
+                            <div class="box"><</div>
+                    </div>
+                </div>
+                <div class="screen-bottom">
+                    <div class="bottom-main">
+                        <div class="bottom-l">
+                            <div class="delivery-location">
+                                <span>配送至</span>
+                            </div>
+                            <div class="address">
+                                <div class="text">北京市朝阳三环以内</div>
+                                <!--<i><s>◇</s></i>-->
+                            </div>
+                            <div class="bottom-l-cks">
+                                <input type="checkbox" id="JD_deliver"><label for="JD_deliver">京东配送</label>
+                                <input type="checkbox" id="COD"><label for="COD">货到付款</label>
+                                <input type="checkbox" id="enoughOnly"><label for="enoughOnly">仅显示有货</label>
+                            </div>
+                        </div>
+                        <div class="bottom-r clearfix ">
+                            <input type="text" value="" placeholder="在结果中寻找">
+                            <button class="bottom-r-search">确定</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!--商品列表开始-->
+        <div class="products-list clearfix">
+            <ul class="clearfix">
+                <li>
+                    <div class="pd-main">
+                           <div class="pic">
+                                <a href="detail.html"><img src="images/list/list-pic.jpg"/> </a>
+                           </div>
+                            <div class="price">￥99.00</div>
+                            <h3><a href="detail.html"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                            <div class="conmment">
+                                已有<a href="detail.html" ><span>2.1万+</span></a>人评价
+                            </div>
+                            <div class="icon">
+                                <img src="images/list/jd-icon1.png"/>
+                                <i class="discount">券999-100</i>
+                            </div>
+                            <div class="buy">
+                                <div class="compare"><a href="#">对比</a></div>
+                                <div class="fav"><a href="#"> 关注</a></div>
+                                <div class="addcar"><a href="#"> 加入购物车</a></div>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                <div class="pd-main">
+                    <div class="pic">
+                        <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                    </div>
+                    <div class="price">￥99.00</div>
+                    <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                    <div class="conmment">
+                        已有<a href="#" ><span>2.1万+</span></a>人评价
+                    </div>
+                    <div class="icon">
+                        <em><img src="images/list/jd-icon1.png"/></em>
+                        <i class="discount">券999-100</i>
+                    </div>
+                    <div class="buy">
+                        <div class="compare"><a href="#">对比</a></div>
+                        <div class="fav"><a href="#"> 关注</a></div>
+                        <div class="addcar"><a href="#"> 加入购物车</a></div>
+                    </div>
+                </div>
+            </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                <div class="pd-main">
+                    <div class="pic">
+                        <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                    </div>
+                    <div class="price">￥99.00</div>
+                    <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                    <div class="conmment">
+                        已有<a href="#" ><span>2.1万+</span></a>人评价
+                    </div>
+                    <div class="icon">
+                        <em><img src="images/list/jd-icon1.png"/></em>
+                        <i class="discount">券999-100</i>
+                    </div>
+                    <div class="buy">
+                        <div class="compare"><a href="#">对比</a></div>
+                        <div class="fav"><a href="#"> 关注</a></div>
+                        <div class="addcar"><a href="#"> 加入购物车</a></div>
+                    </div>
+                </div>
+            </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pd-main">
+                        <div class="pic">
+                            <a href=""><img src="images/list/list-pic.jpg"/> </a>
+                        </div>
+                        <div class="price">￥99.00</div>
+                        <h3><a href="#"> 戴尔(DELL)成就Vostro 3800-R6308 台式电脑(i3-4170 4G 500G DVD 三年上门</a> </h3>
+                        <div class="conmment">
+                            已有<a href="#" ><span>2.1万+</span></a>人评价
+                        </div>
+                        <div class="icon">
+                            <em><img src="images/list/jd-icon1.png"/></em>
+                            <i class="discount">券999-100</i>
+                        </div>
+                        <div class="buy">
+                            <div class="compare"><a href="#">对比</a></div>
+                            <div class="fav"><a href="#"> 关注</a></div>
+                            <div class="addcar"><a href="#"> 加入购物车</a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pages">
+                <div class="page-l">
+                    <ol>
+                        <li class="pre-page"><a href="#">上一页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li class="pre-page"><a href="#">下一页</a></li>
+                    </ol>
+
+                </div>
+                <div class="page-r">
+                    <em>共 <strong>100</strong>页</em>
+                    <em>到第
+                    <input>
+                    页</em>
+                    <i><a href="#">确定</a></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--产品列表结束-->
+
+<!--商家推荐开始-->
+<div class="w hotgoods">
+    <div class="adtitle ">
+        <h3>商品精选</h3>
+        <i>广告</i>
+    </div>
+    <div class="hotgoods-plist">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="price">￥1999.00</div>
+
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="price">￥1999.00</div>
+
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="price">￥1999.00</div>
+
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="price">￥1999.00</div>
+
+                <div class="comment">已有15人评价</div>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/list/ad-img.jpg"/>
+                </a>
+                <h3>
+                    <a href="#">
+                        联想 Lenovo 扬天M3900c 台式电脑（ E1-7010 4G
+                    </a>
+                </h3>
+                <div class="price">￥1999.00</div>
+
+                <div class="comment">已有15人评价</div>
+            </li>
+
+
+        </ul>
+
+
+    </div>
+</div>
+<!--商家推荐结束-->
+
+<!--重新搜索开始-->
+<div class="w research"></div>
+<!--重新搜索结束-->
+
+
+
+<!--底部开始-->
+<div class="jd-footer">
+    <div class="server">
+        <div class="slogen">
+                <span class="item slogen1">
+                    <img src="images/index/slogen1.png"/>
+                </span>
+                <span class="item slogen2">
+                    <img src="images/index/slogen2.png"/>
+                </span>
+                <span class="item slogen3">
+                    <img src="images/index/slogen3.png"/>
+                </span>
+                <span class="item slogen4">
+                    <img src="images/index/slogen4.png"/>
+                </span>
+        </div>
+        <div class="w pic clearfix">
+            <dl>
+                <dt><a href="#"> 购物指南</a></dt>
+                <dd><a href="#"> 购物流程</a></dd>
+                <dd><a href="#"> 会员介绍</a></dd>
+                <dd><a href="#"> 生活旅行/团购</a></dd>
+                <dd><a href="#"> 常见问题</a></dd>
+                <dd><a href="#"> 大家电</a></dd>
+                <dd><a href="#"> 联系客服</a></dd>
+
+            </dl>
+            <dl>
+                <dt><a href="#"> 购物指南</a></dt>
+                <dd><a href="#"> 购物流程</a></dd>
+                <dd><a href="#"> 会员介绍</a></dd>
+                <dd><a href="#"> 生活旅行/团购</a></dd>
+                <dd><a href="#"> 常见问题</a></dd>
+                <dd><a href="#"> 大家电</a></dd>
+                <dd><a href="#"> 联系客服</a></dd>
+
+            </dl>
+            <dl>
+                <dt><a href="#"> 购物指南</a></dt>
+                <dd><a href="#"> 购物流程</a></dd>
+                <dd><a href="#"> 会员介绍</a></dd>
+                <dd><a href="#"> 生活旅行/团购</a></dd>
+                <dd><a href="#"> 常见问题</a></dd>
+                <dd><a href="#"> 大家电</a></dd>
+                <dd><a href="#"> 联系客服</a></dd>
+
+            </dl>
+            <dl>
+                <dt><a href="#"> 购物指南</a></dt>
+                <dd><a href="#"> 购物流程</a></dd>
+                <dd><a href="#"> 会员介绍</a></dd>
+                <dd><a href="#"> 生活旅行/团购</a></dd>
+                <dd><a href="#"> 常见问题</a></dd>
+                <dd><a href="#"> 大家电</a></dd>
+                <dd><a href="#"> 联系客服</a></dd>
+
+            </dl>
+            <div class="coverage">
+                <dl>
+                    <dt>京东自营覆盖区县</dt>
+                    <dd>
+                        <p>京东已向全国2357个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+                        <p class="look"><a href="#"> 查看详情 ></a></p>
+                    </dd>
+
+                </dl>
+            </div>
+
+        </div>
+    </div>
+    <div class="w againw">
+        <div class="links">
+            <a href="#"> 关于我们</a>|
+            <a href="#"> 联系我们</a>|
+            <a href="#"> 商家入驻</a>|
+            <a href="#"> 营销中心</a>|
+            <a href="#"> 手机京东</a>|
+            <a href="#"> 友情链接</a>|
+            <a href="#"> 销售联盟</a>|
+            <a href="#"> 京东社区</a>|
+            <a href="#"> 京东公益</a>|
+            <a href="#"> English Site</a>|
+            <a href="#"> Contact Us</a>
+
+        </div>
+        <div class="copyright">
+            北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |  互联网药品信息服务资格证编号(京)-经营性-2014-0008  |  新出发京零 字第大120007号
+            <br/>
+
+            音像制品经营许可证苏宿批005号  |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号
+            <br/>
+
+            网络文化经营许可证京网文[2014]2148-348号  违法和不良信息举报电话：4006561155  Copyright © 2004-2015  京东JD.com 版权所有
+            <br/>
+            京东旗下网站：360TOP  拍拍网  网银在线
+
+        </div>
+        <div class="message">
+            <img src="images/index/mess.png" alt>
+            <img src="images/index/mess2.png" alt>
+            <img src="images/index/mess3.png" alt>
+            <img src="images/index/mess4.png" alt>
+            <img src="images/index/mess5.png" alt>
+
+        </div>
+
+    </div>
+
+</div>
+<!--底部结束-->
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="jsdetail/base.js"></script>
+</html>
