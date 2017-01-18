@@ -154,7 +154,7 @@ var p_json = {
     'description': '轻松扩展性能强劲!!',
     'salesInfo': '4升级6代CPU性能更强运行速度更快，增加蓝牙及WIFI功能的灵越3650 I3同配限时促销3099猛戳这里',
     'price': '2788.00',
-    'discount': 0,
+    'discount': 1,
     'changOther': 1,
     'weight': '8kg'
 };

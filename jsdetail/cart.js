@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Created by Administrator on 2017/1/13.
  */
 
@@ -21,14 +21,14 @@ Cart.prototype={
         /*每次点击添加到购物车都会将产品添加到list中*/
         var str='';
         for(var i = 0;i < this.products.length ; i++){
-            str += '<li>';
-                str += ' <a href="#"><img src="images/detail/previewPic.jpg" alt=""/></a>';
+            str += '<li data='+i+'>';
+                str += ' <a href="#"><img src="images/detail/preview-pic.jpg/" alt=""/></a>';
                 str += '<h5><a href="#">'+ this.products[i].name +' </a></h5>';
             str += ' <div class="p-price">';
                 str += ' <span>￥'+ this.products[i].price +'</span>';
             str += '<span>x'+this.products[i].buy_num+'</span>';
             str += '</div>';
-            str += '<a href="#" class="p-delete" data='+i+'>删除</a>';
+            str += '<a href="#" class="p-delete" >删除</a>';
             str += '</li>';
             $('#car-products-list > ul').html(str);
 
@@ -45,8 +45,7 @@ Cart.prototype={
         var lis = document.getElementById('car-products-list').children[0].children;
 
         for(var i=0;i<cart.products.length;i++){
-            var deletes = lis[i].children[3];
-            deletes.onclick =deleteProduct;
+            lis[i].onclick =deleteProduct;
 
         }
 
