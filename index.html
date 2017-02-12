@@ -8,11 +8,30 @@
     <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body>
-
 <div id="mask"></div>
-<div id="Bomb">
-    <span id="close_mask">×</span>
-
+<div id="Bomb_login">
+    <span id="close_mask_1">×</span>
+    <div class="login_wrap">
+        <p class="form_title">请登录</p><span style="color: #c5c5c5">（提示：此处仅为模拟数据admin 12345）</span>
+        <form action="#" method="post">
+            <div><label for="name">账户名：</label><input type="text" name="name" id="name"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
+            <div><label for="pwd">密码：</label><input type="password" name="pwd" id="pwd"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <button class="btnCustomer" id="btn_login">登录</button>
+            <button class="btnCustomer" id="btn_gotoRegister">立即注册</button>
+        </form>
+    </div>
+</div>
+<div id="Bomb_register">
+    <span id="close_mask_2">×</span>
+    <div class="login_wrap">
+        <p class="form_title">欢迎注册</p><span style="color: #c5c5c5">（提示：此处仅作本地合法性验证）</span>
+        <form action="#" method="post">
+            <div><label for="name">账户名：</label><input type="text" name="name" id="username"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
+            <div><label for="pwdConfirm">密码：</label><input type="password" name="pwd" id="pwdConfirm"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <div><label for="pwd2">确认密码：</label><input type="password" name="pwd" id="pwd2"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <button class="btnCustomer" id="btn_register">立即注册</button>
+        </form>
+    </div>
 </div>
 
 <!--网站次导航-->
@@ -22,13 +41,13 @@
             <dt class="loc">送至：北京
                 <i><s>◇</s></i>
             </dt>
-    
+
         </div>
         <div class="fr">
             <ul>
                 <li>
                     <a href="javascript:;" id="login">你好，请登录</a>
-                    <a href="#" class="col-red">免费注册</a>
+                    <a href="#" class="col-red" id="register">免费注册</a>
                 </li>
                 <li class="line"></li>
                 <li>我的订单</li>
@@ -118,9 +137,8 @@
         <a href="#" >国际服饰</a>
         <a href="#" >优惠券</a>
     </div>
-
 </div>
-    <!--搜索框部分结束-->
+<!--搜索框部分结束-->
 
 <!--nav开始-->
 <div class="jd-nav">
