@@ -15,9 +15,5 @@
 - 使用[template](https://github.com/Jerome1580/Package-plug-in/tree/master/template)等插件模板，提高效率
 
 ## 效果图
-- 首页
---![index效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/index.png)
-- 列表页
---![list效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/list.png)
-- 详情页
---![detail效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/detail.png)
+------------ | ------------- | ------------|
+![首页](https://github.com/Jerome1580/jd-demo/blob/master/images/index.png)|![列表页](https://github.com/Jerome1580/jd-demo/blob/master/images/list.png)|![详情页](https://github.com/Jerome1580/jd-demo/blob/master/images/detail.png)|
