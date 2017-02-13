@@ -16,8 +16,8 @@
 
 ## 效果图
 - 首页
-![index效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/index.png)
+--![index效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/index.png)
 - 列表页
-![list效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/list.png)
+--![list效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/list.png)
 - 详情页
-![detail效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/detail.png)
+--![detail效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/detail.png)
