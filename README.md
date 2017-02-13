@@ -13,3 +13,11 @@
 - 使用修改第三方框架jquery-ui，封装原生js的[animate动画](https://github.com/Jerome1580/Package-plug-in/tree/master/js)
 - jq封装的Ajax，用jsonp方法，调用聚合数据（菜谱大全）api接口[练习](https://github.com/Jerome1580/Ajax)
 - 使用[template](https://github.com/Jerome1580/Package-plug-in/tree/master/template)等插件模板，提高效率
+
+## 效果图
+- 首页
+![index效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/index.png)
+- 列表页
+![list效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/list.png)
+- 详情页
+![detail效果图](https://github.com/Jerome1580/jd-demo/blob/master/images/detail.png)
