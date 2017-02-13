@@ -1,19 +1,30 @@
 
-# Ä£Äâ¾©¶«ÍøÒ³demo
-## ÏîÄ¿½éÉÜ
-- ÏîÄ¿Ä£Äâ3¸öÒ³Ãæ£¬Ê×Ò³[index](https://github.com/Jerome1580/jd-demo/blob/master/index.html),ÁĞ±íÒ³[list](https://github.com/Jerome1580/jd-demo/blob/master/list.html),²úÆ·ÏêÇéÒ³[detail](https://github.com/Jerome1580/jd-demo/blob/master/detail.html)
-- ÏîÄ¿Ö÷Òª×öÁËµçÉÌÍøÕ¾µÄ²¼¾Ö£¬ÑùÊ½css£¬½»»¥£¬ÊµÏÖÁË´ó²¿·ÖÍøÕ¾µÄÇ°¶ËĞ§¹û
-- **¡¾ÖØµã¡¿**²úÆ·detailÒ³
-  1. ´´½¨Ô­ĞÍ¶ÔÏó£¬¹¹Ôì²úÆ·-productÔ­ĞÍ¡¢¹ºÎï³µ-cartÔ­ĞÍ£¬½«productÏà¹ØµÄÊôĞÔ£¨Èç£º±êÌâ¡¢¼Û¸ñ£©¡¢·½·¨£¨Èç£º¼ÓÈë¹ºÎï³µ£©·â×°µ½productÔ­ĞÍÖĞ£¬Ä£¿é»¯¹ÜÀí¡£
-  2. ÊµÏÖÁË²úÆ·ÏêÇéÒ³ÖĞ£¬Ìí¼Óµ½¹ºÎï³µ¹¦ÄÜ£¬²¢ÔÚ¹ºÎï³µÖĞÉ¾³ı£¬ĞŞ¸Ä²úÆ·ĞÅÏ¢¡£
-  3. ËùÓĞ²úÆ·Êı¾İÊÇÓÉºóÌ¨£¨Ç°Ì¨Ä£ÄâµÄ£©json´«¹ıÀ´µÄ£¬½âÎöµ½Ò³ÃæÉÏ£»ÊµÏÖ²»Í¬²úÆ·µÄ²»Í¬Êı¾İ¼°Õ¹Ê¾£¨Èç£º¸Ã²úÆ·ÊÇ·ñ²Î¼Ó»î¶¯£©¡£
+# æ¨¡æ‹Ÿäº¬ä¸œç½‘é¡µdemo
+## é¡¹ç›®ä»‹ç»
+- é¡¹ç›®æ¨¡æ‹Ÿ3ä¸ªé¡µé¢ï¼Œé¦–é¡µ[index](https://github.com/Jerome1580/jd-demo/blob/master/index.html),åˆ—è¡¨é¡µ[list](https://github.com/Jerome1580/jd-demo/blob/master/list.html),äº§å“è¯¦æƒ…é¡µ[detail](https://github.com/Jerome1580/jd-demo/blob/master/detail.html)
+- é¡¹ç›®ä¸»è¦åšäº†ç”µå•†ç½‘ç«™çš„å¸ƒå±€ï¼Œæ ·å¼cssï¼Œäº¤äº’ï¼Œå®ç°äº†å¤§éƒ¨åˆ†ç½‘ç«™çš„å‰ç«¯æ•ˆæœ
+- **ã€é‡ç‚¹ã€‘**äº§å“detailé¡µ
+  1. åˆ›å»ºåŸå‹å¯¹è±¡ï¼Œæ„é€ äº§å“-productåŸå‹ã€è´­ç‰©è½¦-cartåŸå‹ï¼Œå°†productç›¸å…³çš„å±æ€§*ï¼ˆå¦‚ï¼šæ ‡é¢˜ã€ä»·æ ¼ï¼‰*ã€æ–¹æ³•*ï¼ˆå¦‚ï¼šåŠ å…¥è´­ç‰©è½¦ï¼‰*å°è£…åˆ°productåŸå‹ä¸­ï¼Œæ¨¡å—åŒ–ç®¡ç†ã€‚
+  2. å®ç°äº†äº§å“è¯¦æƒ…é¡µä¸­ï¼Œæ·»åŠ åˆ°è´­ç‰©è½¦åŠŸèƒ½ï¼Œå¹¶åœ¨è´­ç‰©è½¦ä¸­åˆ é™¤ï¼Œä¿®æ”¹äº§å“ä¿¡æ¯ã€‚
+  3. æ‰€æœ‰äº§å“æ•°æ®æ˜¯ç”±åå°*ï¼ˆå‰å°æ¨¡æ‹Ÿçš„ï¼‰*jsonä¼ è¿‡æ¥çš„ï¼Œè§£æåˆ°é¡µé¢ä¸Šï¼›å®ç°ä¸åŒäº§å“çš„ä¸åŒæ•°æ®åŠå±•ç¤º*ï¼ˆå¦‚ï¼šè¯¥äº§å“æ˜¯å¦å‚åŠ æ´»åŠ¨ï¼‰*ã€‚
 
-## Ê¹ÓÃ¼¼Êõ
-- html£¬css£¬css3£¬js£¬jquery
-- Ê¹ÓÃĞŞ¸ÄµÚÈı·½¿ò¼Üjquery-ui£¬·â×°Ô­ÉújsµÄ[animate¶¯»­](https://github.com/Jerome1580/Package-plug-in/tree/master/js)
-- jq·â×°µÄAjax£¬ÓÃjsonp·½·¨£¬µ÷ÓÃ¾ÛºÏÊı¾İ£¨²ËÆ×´óÈ«£©api½Ó¿Ú[Á·Ï°](https://github.com/Jerome1580/Ajax)
-- Ê¹ÓÃ[template](https://github.com/Jerome1580/Package-plug-in/tree/master/template)µÈ²å¼şÄ£°å£¬Ìá¸ßĞ§ÂÊ
+## ä½¿ç”¨æŠ€æœ¯
+- htmlï¼Œcssï¼Œcss3ï¼Œjsï¼Œjquery
+- ä½¿ç”¨ä¿®æ”¹ç¬¬ä¸‰æ–¹æ¡†æ¶jquery-uiï¼Œå°è£…åŸç”Ÿjsçš„[animateåŠ¨ç”»](https://github.com/Jerome1580/Package-plug-in/tree/master/js)
+- jqå°è£…çš„Ajaxï¼Œç”¨jsonpæ–¹æ³•ï¼Œè°ƒç”¨èšåˆæ•°æ®ï¼ˆèœè°±å¤§å…¨ï¼‰apiæ¥å£[ç»ƒä¹ ](https://github.com/Jerome1580/Ajax)
+- ä½¿ç”¨[template](https://github.com/Jerome1580/Package-plug-in/tree/master/template)ç­‰æ’ä»¶æ¨¡æ¿ï¼Œæé«˜æ•ˆç‡
 
-## Ğ§¹ûÍ¼
+## æ•ˆæœå›¾
+é¦–é¡µ|åˆ—è¡¨é¡µ|è¯¦æƒ…é¡µ
+------------ | ------------- | ------------
+![é¦–é¡µ][1]|![åˆ—è¡¨é¡µ][2]|![è¯¦æƒ…é¡µ][3]
+
+
+
+
+[1]: images/index.png
+[2]: images/list.png
+[3]: images/detail.png
+
 
 
