@@ -2,7 +2,7 @@
 # 模拟京东网页demo
 ## 项目介绍
 - 项目模拟3个页面，首页[index](https://github.com/Jerome1580/jd-demo/blob/master/index.html),列表页[list](https://github.com/Jerome1580/jd-demo/blob/master/list.html),产品详情页[detail](https://github.com/Jerome1580/jd-demo/blob/master/detail.html)
-- 项目主要做了电商网站的布局，样式css，交互，实现了大部分网站的前端效果
+- 项目主要做了电商网站的布局，样式css，交互，ajax请求等，实现了大部分网站的前端效果
 - **【重点】**产品detail页
  1. 创建原型对象，构造产品__product原型__、购物车__cart原型__，将product相关的属性*（如：标题、价格）*、方法*（如：加入购物车）*封装到product原型中，模块化管理。
  2. 实现了添加产品到购物车功能；并在购物车中删除、修改产品信息。
@@ -21,6 +21,8 @@
 
 
 
+**17.02.15 版本更新**
+1. 新增网站搜索框，关键词搜索联想词功能，ajax请求，淘宝api接口
 
 [1]: images/index.png
 [2]: images/list.png
