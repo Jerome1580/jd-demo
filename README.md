@@ -11,7 +11,7 @@
 ## 使用技术
 - html，css，css3，js，jquery
 - 使用修改第三方框架jquery-ui，封装原生js的[animate动画](https://github.com/Jerome1580/Package-plug-in/tree/master/js)
-- jq封装的Ajax，调用聚合数据（菜谱大全）api接口[练习](https://github.com/Jerome1580/Ajax)
+- jq封装的Ajax，调用淘宝api搜索联想词数据；调用聚合数据（菜谱大全）api接口[练习](https://github.com/Jerome1580/Ajax)
 - 使用[template](https://github.com/Jerome1580/Package-plug-in/tree/master/template)等插件模板，提高效率
 
 ## 效果图
