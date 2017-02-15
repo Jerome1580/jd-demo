@@ -3,8 +3,8 @@
  */
 
     $( "#tabs" ).tabs();
-    //    显示/隐藏配送地址
 
+    //    显示/隐藏配送地址
     $('.address').hover(function(){
         $('.box').show();
     },function(){

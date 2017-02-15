@@ -313,6 +313,39 @@ dt,.shortcut .fore{
     top: 5px;
 
 }
+
+/*搜索联想词开始*/
+.search{
+    position: relative;
+}
+.search #inputTxt{
+
+}
+
+.search #queryKw{
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 450px;
+    border: 2px solid #c7c7c7;
+    padding: 2px;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+
+}
+
+.search #queryKw li{
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.search #queryKw li:hover{
+    background-color: #859bca;
+}
+
+
+/*搜索联想词结束*/
 /*导航开始*/
 
 .jd-nav{

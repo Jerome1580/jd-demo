@@ -75,8 +75,29 @@
         topbanner.style.display = "none";
     };
 
+    //搜索联想词
+    $('#inputTxt').keyup(function () {
+        var txt = $('#inputTxt').val();
 
-   //折叠张开类目
+        // 这是百度的接口
+        // var url = 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd='+txt;
+
+        var url = 'https://suggest.taobao.com/sug?code=utf-8&q='+txt;
+        var _box = $('#queryKw');
+        querySUG_TaoBao(_box,url);
+
+        $(document).click(function () {
+            _box.hide();
+        })
+
+
+});
+
+
+
+
+
+//折叠张开类目
    $('#category').hover(function () {
        $('#category>dd').show()
    }, function () {
@@ -97,4 +118,55 @@
         $(this).removeClass('hover');
         $('#carDetail').hide();
     });
+
+    //封装淘宝关键词搜索ajax请求数据
+    function querySUG_TaoBao(_box,url){
+        _box.html('');
+
+        $.ajax({
+            url:url,
+            type:'get',
+            dataType:'jsonp',
+            jsonp:'callback',
+            success:function(data){
+                if(data.result.length>0) {
+                    _box.show();
+                    var ul = $('<ul></ul>');
+                    var keywords = data.result;
+                    $.each(keywords, function (i, element) {
+
+                        var li = $('<li></li>').append(element[0]);
+                        ul.append(li);
+
+                    });
+                    _box.append(ul).show();
+
+                    chooseword(_box);//传递隐藏的盒子
+                }
+                else{
+                    //如果没有结果，则隐藏
+                        _box.hide();
+
+                }
+
+        },
+        error:function(e) {
+            console.log(e);
+        }
+
+    })
+
+}
+    //选择关键词后隐藏联想词框
+    function chooseword(_box){
+
+        $('#queryKw>ul').on('click','li', function (e) {
+            var txt = e.target.innerHTML;
+            $('#inputTxt').val(txt);
+            _box.hide();
+
+        })
+    }
+
+
 
