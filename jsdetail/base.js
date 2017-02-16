@@ -135,14 +135,12 @@
                     var ul = $('<ul></ul>');
                     var keywords = data.result;
                     $.each(keywords, function (i, element) {
-
                         var li = $('<li></li>').append(element[0]);
                         ul.append(li);
 
                     });
                     _box.append(ul).show();
 
-                    chooseword(_box);//传递隐藏的盒子
                 }
                 else{
                     //如果没有结果，则隐藏
@@ -150,17 +148,17 @@
 
                 }
 
-        },
-        error:function(e) {
-            console.log(e);
         }
-
-    })
+    }).done(function(){
+            chooseword(_box);//传递隐藏的盒子
+        })
+            .fail(function (e) {
+            console.log(e);
+        })
 
 }
     //选择关键词后隐藏联想词框
     function chooseword(_box){
-
         $('#queryKw>ul').on('click','li', function (e) {
             var txt = e.target.innerHTML;
             $('#inputTxt').val(txt);
