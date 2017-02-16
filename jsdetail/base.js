@@ -120,8 +120,8 @@
     });
 
     //封装淘宝关键词搜索ajax请求数据
+
     function querySUG_TaoBao(_box,url){
-        _box.html('');
 
         $.ajax({
             url:url,
@@ -130,6 +130,7 @@
             jsonp:'callback',
             success:function(data){
                 if(data.result.length>0) {
+                    _box.empty(); //清空上一次查询结果
                     _box.show();
                     var ul = $('<ul></ul>');
                     var keywords = data.result;
