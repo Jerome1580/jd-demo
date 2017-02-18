@@ -58,7 +58,7 @@
     //关闭通栏广告
     $('#jd_closeTopBanner').click(function () { $('#jd_topBanner').hide();});
 
-    //子频道页面，左侧slide全部品类折叠张开类目
+    //左侧slide全部品类折叠张开类目
     $('#category').hover(function () {
        $('#category>dd').show()
      }, function () {
