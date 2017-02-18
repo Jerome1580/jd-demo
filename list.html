@@ -10,25 +10,25 @@
 <body>
 <div id="mask"></div>
 <div id="Bomb_login">
-    <span id="close_mask_1">×</span>
+    <span id="close_loginMask">×</span>
     <div class="login_wrap">
         <p class="form_title">请登录</p><span style="color: #c5c5c5">（提示：此处仅为模拟数据admin 12345）</span>
         <form action="#" method="post">
-            <div><label for="name">账户名：</label><input type="text" name="name" id="name"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
-            <div><label for="pwd">密码：</label><input type="password" name="pwd" id="pwd"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <div><label for="login_name">账户名：</label><input type="text" name="name" id="login_name"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
+            <div><label for="login_pwd">密码：</label><input type="password" name="pwd" id="login_pwd"/><div class="tips"><i></i><span>请输入密码</span></div></div>
             <button class="btnCustomer" id="btn_login">登录</button>
             <button class="btnCustomer" id="btn_gotoRegister">立即注册</button>
         </form>
     </div>
 </div>
 <div id="Bomb_register">
-    <span id="close_mask_2">×</span>
+    <span id="close_registerMask">×</span>
     <div class="login_wrap">
         <p class="form_title">欢迎注册</p><span style="color: #c5c5c5">（提示：此处仅作本地合法性验证）</span>
         <form action="#" method="post">
-            <div><label for="name">账户名：</label><input type="text" name="name" id="username"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
-            <div><label for="pwdConfirm">密码：</label><input type="password" name="pwd" id="pwdConfirm"/><div class="tips"><i></i><span>请输入密码</span></div></div>
-            <div><label for="pwd2">确认密码：</label><input type="password" name="pwd" id="pwd2"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <div><label for="register_name">账户名：</label><input type="text" name="name" id="register_name"/><div class="tips"><i></i><span>5-12个字符；使用数字，字母，下划线</span></div></div>
+            <div><label for="register_pwd">密码：</label><input type="password" name="pwd" id="register_pwd"/><div class="tips"><i></i><span>请输入密码</span></div></div>
+            <div><label for="register_pwdConfirm">确认密码：</label><input type="password" name="pwd" id="register_pwdConfirm"/><div class="tips"><i></i><span>请输入密码</span></div></div>
             <button class="btnCustomer" id="btn_register">立即注册</button>
         </form>
     </div>
@@ -87,9 +87,9 @@
 <!--网站次导航结束-->
 
 <!--横屏banner-->
-<div class="topbanner" id="jd-top">
+<div class="topbanner" id="jd_topBanner">
     <div class="w tp"><img src="images/index/topbanner.jpg" alt="双十一"/>
-        <a href="javascript:;" class="close-banner" id="jd-close"></a>
+        <a href="javascript:;" class="close-banner" id="jd_closeTopBanner"></a>
     </div>
 </div>
 

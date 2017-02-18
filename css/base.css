@@ -139,8 +139,8 @@ s, i, em {
     top: 0;
     left: 0;
     z-index: 9999;
+    overflow: hidden;
     display:none;
-
 }
 
 #Bomb_login{
@@ -221,7 +221,7 @@ s, i, em {
 
 
 
-#close_mask_1,#close_mask_2{
+#close_loginMask,#close_registerMask{
     width: 20px;
     height: 20px;
     position: absolute;
@@ -346,6 +346,22 @@ dt,.shortcut .fore{
 
 
 /*搜索联想词结束*/
+
+/*topBanner*/
+
+.topbanner{
+    height: 80px;
+    background-color: #8925c5;
+    position: relative;
+}
+.close-banner{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 10px;
+    right: 135px;
+    background: url("../images/index/close.png");
+}
 /*导航开始*/
 
 .jd-nav{
