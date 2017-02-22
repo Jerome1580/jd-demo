@@ -101,13 +101,14 @@
     }
 
     //实例化购物车
-    (function () {
         var cart = new Cart();
 
         cart.bindBasic();
         cart.bindList();
 
-    })();
+
+
+
 
 
 

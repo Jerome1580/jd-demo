@@ -211,7 +211,7 @@ margin: 10px 0;
 
 .product-info .p-choose dd em.huan{
     display: inline-block;
-    background: url("../images/detail/__sprite.png") no-repeat -32px 5px;
+    background: url("../images/detail/_sprite.png") no-repeat -32px 5px;
     width: 18px;
     height: 20px;
     position: relative;
@@ -740,7 +740,7 @@ text-align: center;
     left: -3px;
     width: 18px;
     height: 18px;
-    background: url("../images/detail/__sprite_shop.png") no-repeat -33px 3px;
+    background: url("../images/detail/_sprite_shop.png") no-repeat -33px 3px;
 }
 .list-shop .shop-b .favour s{
     display: inline-block;
@@ -749,7 +749,7 @@ text-align: center;
     left: -5px;
     width: 18px;
     height: 18px;
-    background: url("../images/detail/__sprite_shop.png") no-repeat -33px -16px;
+    background: url("../images/detail/_sprite_shop.png") no-repeat -33px -16px;
 }
 
 .list-shop .shop-b .left,
