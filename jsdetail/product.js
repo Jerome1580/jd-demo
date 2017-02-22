@@ -110,6 +110,7 @@
         //将该产品实例的数量更改，并加入购物车
         product.buy_num = num;
 
+        console.log(cart);
         cart.products.push(product);
 
         //给每个product动态添加index属性，便于对cart操作
